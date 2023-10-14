@@ -1,0 +1,1051 @@
+@font-face {
+    font-family: Apercu;
+    src: url(fonts/Apercu-1/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: Butler-Bold;
+    src: url(fonts/Butler-Font/Butler_Bold.otf);
+}
+
+
+
+/* First Main Page Starts Here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-1 {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.main-1-header {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.main-1-header>a>img {
+    position: absolute;
+    left: 190px;
+    top: 15px;
+
+}
+
+.main-1-header-a-1 {
+    font-family: Apercu;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 600px;
+    text-decoration: none;
+}
+
+.main-1-header-a-2 {
+    font-family: Apercu;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 700px;
+    text-decoration: none;
+}
+
+.main-1-header-a-3 {
+    font-family: Apercu;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 800px;
+    text-decoration: none;
+}
+
+.main-1-header-a-4 {
+    font-family: Apercu;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 925px;
+    text-decoration: none;
+}
+
+.main-1-header-btn-1 {
+    background-color: black;
+    font-family: Apercu;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 325px;
+    border: solid white 1px;
+    padding: 15px 16.5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main-1-header-btn-2 {
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Apercu;
+    background-color: #ed1c24;
+    padding: 12px 13.5px;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    right: 175px;
+    cursor: pointer;
+
+}
+
+.main-1-header-arrow-icon {
+    background-color: white;
+    color: #ed1c24;
+    padding: 6px 7px;
+    border-radius: 100%;
+    display: block;
+}
+
+.main-1-image {
+    height: 600px;
+    width: 100%;
+}
+
+/* Brands Section Starts Here*/
+
+.brands {
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+
+.brands-text {
+    font-family: 'Apercu';
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.brands-font-1 {
+    font-family: 'futurak';
+    font-size: 50px;
+}
+
+.brands-font-2 {
+    font-family: 'Apercu';
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.brands-image {
+    height: 200px;
+    width: 100%;
+}
+
+.brand-image-1 {
+    background-color: white;
+    padding: 30px 10px;
+    position: relative;
+    top: 15px;
+    left: 300px;
+    border-radius: 5px;
+}
+
+.brand-image-2 {
+    background-color: white;
+    padding: 30px 10px;
+    position: relative;
+    top: 15px;
+    left: 325px;
+    border-radius: 5px;
+}
+
+.brand-image-3 {
+    background-color: white;
+    padding: 30px 10px;
+    position: relative;
+    top: 15px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+.brands-btn {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.brands-btn-1 {
+    background-color: black;
+    font-family: Apercu;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.brands-btn-2 {
+    background-color: black;
+    font-family: Apercu;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 660px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.brands-btn-3 {
+    background-color: black;
+    font-family: Apercu;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 970px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Franchise Resturant Section Starts Here*/
+
+.franchise-main {
+    height: auto;
+    width: 100%;
+    background-color: #0f0f0f;
+    position: relative;
+
+}
+
+.franchise-S-img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.franchise-header {
+    width: 100%;
+    padding-top: 65px;
+    text-align: center;
+
+}
+
+.franchise-header-text-1 {
+    color: white;
+    font-family: 'futurak';
+    font-size: 52px;
+    line-height: 125px;
+}
+
+.franchise-header-text-2 {
+    color: white;
+    font-family: 'Butler-Bold';
+    font-size: 55px;
+    line-height: 0%;
+}
+
+.franchise-header-text-3 {
+    font-family: 'Apercu';
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.franchise-1 {
+    height: 400px;
+    width: 100%;
+
+}
+
+.franchise-1-address {
+    height: 300px;
+    width: 36%;
+    float: left;
+    font-family: 'Apercu';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0px 0px 200px;
+    position: relative;
+
+}
+
+.franchise-city {
+    color: #ED1C24;
+    font-family: 'apercu';
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.resturant-name {
+    font-family: 'futurak';
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.franchise-type {
+    font-family: Apercu;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.franchise-1-image {
+    height: 310px;
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    border-radius: 10px;
+
+}
+
+.get-direction-btn-ISB {
+    color: white;
+    border: Solid rgba(255, 255, 255, 0.7) 0.5px;
+    font-size: 14px;
+    font-family: Apercu;
+    background-color: #0f0f0f;
+    padding: 12px 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.direction-btn-arrow {
+    background-color: white;
+    color: #ed1c24;
+    padding: 6px 7px;
+    border-radius: 100%;
+    display: block;
+
+}
+
+.franchise-2 {
+    height: 400px;
+    width: 100%;
+
+}
+
+.franchise-2-address {
+    height: 300px;
+    width: 36%;
+    float: left;
+    font-family: 'Apercu';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0px 0px 50px;
+    position: relative;
+
+}
+
+.franchise-2-image {
+    height: 310px;
+    width: 38%;
+    float: left;
+    padding: 40px 0px 0px 150px;
+    border-radius: 10px;
+
+}
+
+.get-direction-btn-FSD {
+    color: white;
+    border: Solid rgba(255, 255, 255, 0.7) 0.5px;
+    font-size: 14px;
+    font-family: Apercu;
+    background-color: #0f0f0f;
+    padding: 12px 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.franchise-3 {
+    height: 350px;
+    width: 100%;
+
+
+}
+
+.franchise-3-address {
+    height: 300px;
+    width: 36%;
+    float: left;
+    font-family: 'Apercu';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0px 0px 200px;
+    position: relative;
+
+
+}
+
+.get-direction-btn-BWP {
+    color: white;
+    border: Solid rgba(255, 255, 255, 0.7) 0.5px;
+    font-size: 14px;
+    font-family: Apercu;
+    background-color: #0f0f0f;
+    padding: 12px 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.franchise-3-image {
+    height: 310px;
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    border-radius: 10px;
+
+}
+
+/* Express Franchise Section Starts Here*/
+
+.express-franchise-main {
+    height: 1300px;
+    width: 100%;
+    background-color: #0d0d0d;
+    position: relative;
+}
+
+.franchise-P-img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.franchise-red-shadow-img {
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    opacity: 0.8;
+}
+
+.express-franchise-header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.express-franchise-heading-1 {
+    font-family: futurak;
+    color: white;
+    font-size: 52px;
+}
+
+.express-franchise-heading-2 {
+    font-family: Butler-Bold;
+    color: white;
+    font-size: 48px;
+}
+
+.express-franchise-leftside {
+    height: 1100px;
+    width: 13%;
+    position: absolute;
+    left: 0%;
+}
+
+.express-franchise-cards-row-1 {
+    height: 1100px;
+    width: 74%;
+    position: absolute;
+    left: 13%;
+}
+
+.express-franchise-card-panel {
+    height: 510px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.express-franchise-address {
+    height: 250px;
+    width: 100%;
+    font-family: 'Apercu';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 15px;
+}
+
+.express-franchise-location {
+    color: #ED1C24;
+    font-family: 'apercu';
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.express-resturant-name {
+    font-family: 'futurak';
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.express-franchise-type {
+    font-family: Apercu;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.express-get-direction-btn {
+    color: white;
+    border: Solid rgba(255, 255, 255, 0.7) 0.5px;
+    font-size: 12px;
+    font-family: Apercu;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.express-direction-btn-arrow {
+    font-size: 15px;
+    background-color: white;
+    color: #ed1c24;
+    padding: 6px 7px;
+    border-radius: 100%;
+    display: block;
+    transform: rotate(-37deg);
+
+}
+
+.express-franchise-row-2-images {
+    padding: 30px 0px 0px 200px;
+}
+
+.express-franchise-row-2-address {
+    height: 250px;
+    width: 100%;
+    font-family: 'Apercu';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 15px;
+    padding-left: 200px;
+}
+
+.express-franchise-rightside {
+    height: 1100px;
+    width: 13%;
+    position: relative;
+
+}
+
+.village-franchise {
+    height: 650px;
+    width: 100%;
+    background-color: rgb(15 15 15);
+}
+
+.village-franchise-header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.village-franchise-heading-1 {
+    font-family: futurak;
+    color: white;
+    font-size: 52px;
+}
+
+.village-franchise-heading-2 {
+    font-family: Butler-Bold;
+    color: white;
+    font-size: 48px;
+}
+
+.village-franchise-body {
+    position: relative;
+    width: 100%;
+    height: 480px;
+}
+
+.vilage-franchise-image {
+    position: absolute;
+    left: 0px;
+    height: 480px;
+    width: 50%;
+}
+
+.village-franchise-address {
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    height: 390px;
+    width: 50%;
+    font-family: 'Apercu';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.village-franchise-location {
+    color: #ED1C24;
+    font-family: 'apercu';
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.village-resturant-name {
+    font-family: 'futurak';
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.village-franchise-type {
+    font-family: Apercu;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.village-get-direction-btn {
+    color: white;
+    border: Solid black 0.5px;
+    font-size: 12px;
+    font-family: Apercu;
+    background-color: #28a745;
+    padding: 10px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.village-direction-btn-arrow {
+    font-size: 18px;
+    background-color: white;
+    color: #28a745;
+    padding: 6px 7px;
+    border-radius: 100%;
+    display: block;
+
+}
+
+/* Express Franchise Opening Soon Section Starts Here*/
+
+.express-franchise-os-main {
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.express-franchise-os-header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.express-franchise-os-img {
+    position: absolute;
+    top: -50px;
+}
+
+.express-franchise-os-heading-1 {
+    font-family: futurak;
+    color: white;
+    font-size: 52px;
+}
+
+.express-franchise-os-heading-2a {
+    font-family: Butler-Bold;
+    color: white;
+    font-size: 48px;
+}
+
+.express-franchise-os-heading-2b {
+    font-family: Butler-Bold;
+    color: white;
+    font-size: 26px;
+}
+
+.express-franchise-os-leftside {
+    height: 530px;
+    width: 13%;
+    float: left;
+}
+
+.express-franchise-os-center {
+    height: 500px;
+    width: 74%;
+    float: left;
+}
+
+.express-franchise-center-row-1 {
+    height: 280px;
+    width: 100%;
+    position: relative;
+}
+
+.express-franchise-center-row-2 {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.express-franchise-os-rightside {
+    height: 530px;
+    width: 13%;
+    float: left;
+    float: left;
+}
+
+.os-text {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.48em;
+    color: #ED1C24;
+}
+
+.os-resturant-name {
+    font-size: 24px;
+    font-family: Futura-Black-BT;
+    font-weight: 600px;
+}
+
+.card-1 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    left: 0px;
+}
+
+.card-2 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    left: 34.5%;
+}
+
+.card-3 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+.card-4 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    left: 0px;
+}
+
+.card-5 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    left: 34.5%;
+}
+
+.card-6 {
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Apercu;
+    font-size: 21px;
+    padding-top: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+.social-feed {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.social-feed-heading {
+    height: 50px;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    font-family: BUtler-Bold;
+    color: white;
+    padding-top: 50px;
+}
+
+.social-feed-images {
+    height: 300px;
+}
+
+.social-feed-images>a {
+    cursor: pointer;
+    padding: 40px 8px 0px;
+}
+
+.footer {
+    height: 450px;
+    width: 100%;
+    background-color: #0f0f0f;
+    position: relative;
+}
+
+.footer-body {
+    height: 300px;
+    width: 75%;
+    margin: 0% 12.5%;
+    color: white;
+    line-height: 21px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-family: Butler-Bold;
+    text-align: left;
+    padding: 70px 0px 30px 0px;
+}
+
+.intro {
+    height: 300px;
+    width: 33%;
+    float: left;
+    padding-right: 5%;
+}
+
+.intro>p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    word-spacing: 1px;
+    font-family: Apercu;
+    text-align: left;
+}
+
+.terms {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+}
+
+.policy {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+}
+
+.footer>img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.site-links {
+    height: 300px;
+    width: 22%;
+    float: left;
+}
+
+.site-links>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+
+}
+
+.contact-us {
+    height: 300px;
+    width: 22%;
+    float: left;
+}
+
+.contact-us>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+}
+
+.contact-us>p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.follow-us {
+    height: 300px;
+    width: 18%;
+    float: left;
+}
+
+.follow-us>a {
+    line-height: 50px;
+}
+
+.fb-icon {
+    background-color: #ED1C24;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 11px 14px 11px 14px;
+}
+
+.insta-icon {
+    background-color: #ED1C24;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px 12px 10px 12px;
+}
+
+.tweet-icon {
+    background-color: #ED1C24;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px 11px 10px 11px;
+}
+
+.copy-right-text-left {
+    height: 40px;
+    width: 37.5%;
+    margin-left: 12.5%;
+    float: left;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: left;
+    padding-top: 10px;
+}
+
+hr{
+    opacity: 0.1;
+}
+
+.copy-right-text-right {
+    height: 40px;
+    width: 37.5%;
+    margin-right: 12.5%;
+    float: left;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Apercu;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.copyright-icon{
+    font-size: 12px;
+}

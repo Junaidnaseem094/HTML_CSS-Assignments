@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Raleway-Light;
+    src: url(Font/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(Font/Raleway/static/Raleway-Bold.ttf);
+}
+
+body{
+    height: 700px;
+    width: 1500px;
+    background-image: url(Images/bgmain.png);
+    background-repeat: no-repeat;
+    background-size: 1510px 710px;
+
+}
+.main{
+    height: 700px;
+    width: 1500px;  
+}
+
+
+/* Header properties */
+
+.header{
+    height: 50px;
+    width: 1500px;
+
+}
+
+.headerline{
+    height: 50px;
+    width: 450px;
+    border-bottom: solid white 1px;
+    float: left;
+}
+
+.headbar{
+    height: auto;
+    width: 200px;
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+}
+
+.headbar > a{
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* #home {
+    height: auto;
+    width: 200px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    float: left;
+    border: red solid 1px;
+
+}
+
+#aboutme {
+    height: auto;
+    width: 200px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    float: left;
+    border: red solid 1px;
+}
+
+#workexp {
+    float: left;
+    height: auto;
+    width: 200px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    border: red solid 1px;
+}
+
+#edu {
+    float: left;
+    height: auto;
+    width: 200px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    border: red solid 1px;
+}
+
+#assignment {
+    float: left;
+    height: auto;
+    width: 200px;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    border: red solid 1px;
+} */
+
+/* Center Body Properties */
+
+.center{
+    height: 400px;
+    width: 1500px;
+    font-family: Raleway-Light;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 200px;
+    
+}
+
+.center1{
+    height: 600px;
+    width: 1500px;
+    font-family: Raleway-Light;
+    border: red solid 1px;
+    
+}
+
+.workexpimg{
+    height: 590px;
+    width: 750px;
+    float: left;
+}
+
+.workexpdetail{
+    height: 590px;
+    width: 750px;
+    float: left;
+
+}
+
+/* .heading{
+    height: auto;
+    width: 1000px;
+    padding: 100px 100px 25px 100px;
+    border: red solid 1px;
+
+    
+}
+
+.workexpH{
+    font-family: Raleway-Light;
+    color: white;
+    font-size: 40px;
+    cursor: default;
+    border: red solid 1px;
+
+}
+
+.workexpH:hover{
+    font-family: Raleway-Bold;
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+.workexpC{
+    font-family: Raleway-Light;
+    color: white;
+    font-size: 30px;
+    padding: 0px 100px 25px 150px;
+    cursor: default;
+    border: red solid 1px;
+
+    
+}
+
+.workexpC:hover{
+    font-family: Raleway-Bold;
+    color: white;
+    font-size: 30px;
+    cursor: default;
+}
+
+.workexpT{
+    font-family: Raleway-Light;
+    color: white;
+    font-size: 20px;
+    padding: 0px 100px 25px 200px;
+    cursor: default;
+    border: red solid 1px;
+
+}
+
+.workexpT:hover{
+    font-family: Raleway-Bold;
+    color: white;
+    font-size: 20px;
+    cursor: default;
+} */
+
+/* .workimage{
+    height: 400px;
+    width: 658px;
+    float: left;
+    text-align: right;
+    padding: 50px 20px;
+    border: red solid 1px;
+}
+
+
+.workdetail{
+    height: 400px;
+    width: 798px;
+    float: left;
+    font-family: Raleway-Light;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    border: red solid 1px;
+} */
+
+.name{
+    font-size: 80px;
+}
+
+.profilepic{
+    height: 400px;
+    width: 550px;
+    float: left;
+    text-align: right;
+    padding: 50px 20px;
+}
+
+
+.introduction{
+    height: 450px;
+    width: 830px;
+    float: left;
+    font-family: Raleway-Light;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* Footer Properties*/
+
+.footer{
+    height: 50px;
+    width: 1500px;
+    
+}
+
+.gitlogo{
+    height: 50px;
+    width: 60px;
+    padding-left: 50px;
+    float: left;
+    
+}
+
+.empty{
+    height: 50px;
+    width: 940px;
+    float: left;
+}
+
+.footerline{
+    height: 50px;
+    width: 450px;
+    border-top: solid white 1px;
+    float: left;
+    
+}

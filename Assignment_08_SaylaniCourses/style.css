@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Raleway;
+    src: url(font/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+.main{
+    height: 700px;
+    width: 1500px;
+    background-color: #E1ECF9;
+}
+
+.logo{
+    height: 150px;
+    width: 1500px;
+    background-color: #091D34;
+}
+
+.bar{
+    height: 20px;
+    width: 875px;
+    background-color: #E1ECF9;
+    padding-left: 625px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact{
+    float: left;
+    word-spacing: 2px;
+    font-size: 20px;
+    border-right: solid #091D34 2px;
+    padding: 0px 10px;
+    
+}
+
+.courses{
+    float: left;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+
+.bartext{
+    text-decoration: none;
+    color: #091D34;
+}
+
+.centerbody{
+    height: 500px;
+    width: 1500px;
+}
+
+.col1, .col3 {
+    height: 510px;
+    width: 400px;
+    float: left;
+    background-color: #091D34;
+}
+
+.col2{
+    height: 410px;
+    width: 700px;
+    float: left;
+    background-color: #091D34;
+    color: #E1ECF9;
+    font-size: 25px;
+    padding-top: 100px;
+    text-align: justify;
+    font-family: Raleway;
+}
+
+.space{
+    height: 510px;
+    width: 40px;
+    float: left;
+}
+
+th{
+    font-size: 50px;
+    height: 200px;
+}
+.coursecard{
+    height: auto;
+    width: auto;
+    float: left;
+    background-color: #E1ECF9;
+    color: #091D34;
+    font-size: 20px;
+    
+}
+
+img{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#ai{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #E1ECF9;
+    padding: 5px 87px;
+    color: #091D34;
+    border: #091D34 solid 1px;
+    
+}
+
+#ai:hover{
+    background-color: #091D34;
+    color: #E1ECF9;
+}
+
+#animation{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #E1ECF9;
+    padding: 5px 95px;
+    color: #091D34;
+    border: #091D34 solid 1px;
+}
+
+#animation:hover{
+    background-color: #091D34;
+    color: #E1ECF9;
+}
+
+#wa{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #E1ECF9;
+    padding: 5px 35px;
+    color: #091D34;
+    border: #091D34 solid 1px;
+}
+
+#wa:hover{
+    background-color: #091D34;
+    color: #E1ECF9;
+}
+
+#flutter{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #E1ECF9;
+    padding: 5px 127px;
+    color: #091D34;
+    border: #091D34 solid 1px;
+}
+
+#flutter:hover{
+    background-color: #091D34;
+    color: #E1ECF9;
+}
+
+table{
+    height: 650px;
+    width: 1500px;
+    background-color: #E1ECF9;
+}
+
+button{
+    background-color: #E1ECF9;
+    border: none;
+    padding: 1px;
+    
+}

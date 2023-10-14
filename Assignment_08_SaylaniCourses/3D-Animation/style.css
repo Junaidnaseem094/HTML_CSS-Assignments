@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Raleway-VariableFont;
+    src: url(../font/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+.col1{
+    height: 700px;
+    width: 750px;
+    float: left;
+    
+}
+
+.col2{
+    height: 700px;
+    width: 750px;
+    float: left;
+    background-color: #236AB9;
+    font-family: Raleway-VariableFont;
+    color: white;
+}
+
+.text{
+    height: 350px;
+    width: 750px;
+    padding-left: 10px;
+}
+
+.addresstext{
+    height: 80px;
+    width: 750px;
+    padding-left: 10px;
+}
+
+.map{
+    height: 300px;
+    width: 750px;
+}

@@ -1,0 +1,19 @@
+body{
+    background: black;
+
+}
+.name{
+    height: 20px;
+}
+h1{
+    color: white;
+    font-family:Helvetica ;
+    font-size: 35px;
+
+}
+
+p{
+    color: white;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+}

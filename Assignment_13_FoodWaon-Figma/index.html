@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wagon - Figma</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Section_1_NavHeader/logo.svg" type="image/png">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/d504b9c678.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="custom-container">
+
+        <!-- Navigation Bar -->
+
+        <nav class="navbar bg-body-tertiary" id="custom-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/Section_1_NavHeader/logo.svg" alt="Logo" width="" height=""
+                        class="d-inline-block align-text-top" id="wagon-logo"> <span id="food"> food </span> <span
+                        id="wagon"> wa<span id="wagon-G">G</span>on</span></a>
+                <div class="address">
+                    <span class="address-bold">Deliver to:</span> <i class="fa-solid fa-location-dot pin-point"></i>
+                    <input class="address-search" type="search" placeholder="Current Location">
+                </div>
+                <div><i class="fa-solid fa-magnifying-glass magnifier"></i>
+                    <input class="food-search" type="search" placeholder="Search Food">
+                    <a href=""><button class="login-btn"> <i class="fa-solid fa-user user-btn"></i> Login </button></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+
+        <div class="container-fluid header">
+            <div class="header-main">
+                <div class="header-content">
+                    <p><span id="heading">Are you starving?</span><br>
+                        Within a few clicks, find meals that are accessible near you</p>
+
+                    <div class="order-card">
+                        <button class="delivery"> <i class="fa-solid fa-motorcycle mcycle"></i> Delivery</button>
+                        <button class="pickup"> <i class="fa-solid fa-bag-shopping bag"></i> Pickup</button><br>
+
+                        <div class="card-address"> <i class="fa-solid fa-location-dot pin-point order-location-pin"></i>
+                            <input class="order-loc-address" type="text" placeholder="Enter Your Address">
+                        </div>
+                        <button class="find-food"> <i class="fa-solid fa-magnifying-glass"></i> Find Food</button>
+                    </div>
+                </div>
+
+                <div class="bowl"><img src="Images/Section_1_NavHeader/food-bowl.png" alt="food bowl" width="350px">
+                </div>
+            </div>
+        </div>
+
+        <!-- Flash Deals Section -->
+
+        <div class="flash-deals">
+            <div class="flash-discount-cards">
+                <div class="flash-discount-image-1"></div>
+                <h4>Greys Vage</h4>
+                <p>6 Days Remaining</p>
+            </div>
+            <div class="flash-discount-cards">
+                <div class="flash-discount-image-2"></div>
+                <h4>Greys Vage</h4>
+                <p>6 Days Remaining</p>
+            </div>
+
+            <div class="flash-discount-cards">
+                <div class="flash-discount-image-3"></div>
+                <h4>Greys Vage</h4>
+                <p>7 Days Remaining</p>
+            </div>
+
+            <div class="flash-discount-cards">
+                <div class="flash-discount-image-4"></div>
+                <h4>Greys Vage</h4>
+                <p>8 Days Remaining</p>
+            </div>
+        </div>
+
+        <!-- How Does it Work Section -->
+
+        <div class="step-to-work">
+            <h2 class="heading">How does it work</h2>
+            <div class="procedure">
+                <div class="steps">
+                    <div><img src="images/Section_3_HowDoesItWork/icon-1.svg" alt="" width=""></div>
+                    <h4>Select location</h4>
+                    <p>Choose the location where your food will be delivered</p>
+                </div>
+
+                <div class="steps">
+                    <div><img src="images/Section_3_HowDoesItWork/icon-2.svg" alt="" width=""></div>
+                    <h4>Choose order</h4>
+                    <p>Check over hundreds of menus to pick your favorite food</p>
+                </div>
+
+                <div class="steps">
+                    <div><img src="images/Section_3_HowDoesItWork/icon-3.svg" alt="" width=""></div>
+                    <h4>Pay advance</h4>
+                    <p>It's quick, safe, and simple. Select several methods of payment</p>
+                </div>
+
+                <div class="steps">
+                    <div><img src="images/Section_3_HowDoesItWork/icon-4.svg" alt="" width=""></div>
+                    <h4>Enjoy meals</h4>
+                    <p>Food is made and delivered directly to your home</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Items Section -->
+
+        <div class="order-items">
+            <h2>Popular items</h2>
+            <div class="side-arrows"><i class="fa-solid fa-angle-left arrows"></i></div>
+
+            <div class="items-list">
+                <div class="item-cards-container">
+                    <div class="cards">
+                        <div><img src="images/Section_4_PopularItems/card-image-1.svg" alt="" width="100%"></div>
+                        <h4>Cheese Burger</h4>
+                        <p class="shop-loc-address"><i class="fa-solid fa-location-dot pin-point shop-loc-pin"> </i>
+                            Burger Arena</p>
+                        <h4>$ 3.88</h4>
+                        <button class="order-now">Order Now</button>
+                    </div>
+
+                    <div class="cards">
+                        <div><img src="images/Section_4_PopularItems/card-image-2.svg" alt="" width="100%"></div>
+                        <h4>Toffe's Cake</h4>
+                        <p class="shop-loc-address"><i class="fa-solid fa-location-dot pin-point shop-loc-pin"> </i> Top
+                            Sticks</p>
+                        <h4>$ 4.00</h4>
+                        <button class="order-now">Order Now</button>
+                    </div>
+
+                    <div class="cards">
+                        <div><img src="images/Section_4_PopularItems/card-image-3.svg" alt="" width="100%"></div>
+                        <h4>Dan Cake</h4>
+                        <p class="shop-loc-address"><i class="fa-solid fa-location-dot pin-point shop-loc-pin"></i> Cake
+                            World</p>
+                        <h4>$ 1.99</h4>
+                        <button class="order-now">Order Now</button>
+                    </div>
+
+                    <div class="cards">
+                        <div><img src="images/Section_4_PopularItems/card-image-4.svg" alt="" width="100%"></div>
+                        <h4>Crispy Sandwich</h4>
+                        <p class="shop-loc-address"><i
+                                class="fa-solid fa-location-dot pin-point shop-loc-pin"></i>Fastfood Dine</p>
+                        <h4>$ 3.00</h4>
+                        <button class="order-now">Order Now</button>
+                    </div>
+
+                    <div class="cards">
+                        <div><img src="images/Section_4_PopularItems/card-image-5.svg" alt="" width="100%"></div>
+                        <h4>Thai Soup</h4>
+                        <p class="shop-loc-address"><i class="fa-solid fa-location-dot pin-point shop-loc-pin"></i>
+                            Foody man</p>
+                        <h4>$ 2.79</h4>
+                        <button class="order-now">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="side-arrows"><i class="fa-solid fa-angle-right arrows"></i></div>
+        </div>
+
+        <!-- Featured Restaurant Section -->
+
+        <div class="featured-restaurant">
+
+            <h2>Featured Restaurants</h2>
+            <!-- Featured Restaurant Section 1 -->
+            <div class="restaurant-cards-container">
+                <!-- card 1 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-1">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 20% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-1-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Food World</span> <br>
+                            <i class="fa-solid fa-star"></i> 46
+                        </div>
+                    </div>
+                    <div class="status-btn-1">Opens tomorrow</div>
+                </div>
+                <!-- card 2 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-2">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 15% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-2-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Pizzahub</span> <br>
+                            <i class="fa-solid fa-star"></i> 40
+                        </div>
+                    </div>
+                    <div class="status-btn-1">Opens tomorrow</div>
+                </div>
+                <!-- card 3 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-3">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 10% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-3-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Donuts hut</span> <br>
+                            <i class="fa-solid fa-star"></i> 20
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+                <!-- card 4 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-4">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 15% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-4-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Donuts hut</span> <br>
+                            <i class="fa-solid fa-star"></i> 50
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+            </div>
+
+            <!-- Featured Restaurant Section 2 -->
+            <div class="restaurant-cards-container">
+                <!-- card 5 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-5">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 10% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-5-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Ruby Tuesday</span> <br>
+                            <i class="fa-solid fa-star"></i> 26
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+                <!-- card 6 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-6">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 25% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-6-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Kuakata Fried Chicken</span> <br>
+                            <i class="fa-solid fa-star"></i> 53
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+                <!-- card 7 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-7">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 10% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-7-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Red Square</span> <br>
+                            <i class="fa-solid fa-star"></i> 45
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+                <!-- card 8 -->
+                <div class="discount-cards">
+                    <div class="disc-card-image-8">
+                        <p class="disc"><i class="fa-solid fa-tag p-tag"></i> 10% off</p>
+                        <p class="delivery-time"><i class="fa-solid fa-clock timer"></i> Fast</p>
+                    </div>
+                    <div class="restaurant-details">
+                        <div class="restaurant-logo"><img src="images/Section_5_FeaturedRestaurants/card-8-logo.svg"
+                                alt=""></div>
+                        <div class="restaurant-name-ratings"><span class="restaurant-name">Taco Bell</span> <br>
+                            <i class="fa-solid fa-star"></i> 35
+                        </div>
+                    </div>
+                    <div class="status-btn-2">Open Now</div>
+                </div>
+            </div>
+
+    
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
